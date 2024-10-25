@@ -1,0 +1,45 @@
+body, h1, h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica /* Font family for the webpage */
+}
+
+body {
+    background: radial-gradient(circle, rgb(0,0,0), rgb(40,0,40)); /* Gradient dark purple background */
+}
+/*green color and font size and spacing adjustments for <h1> element */
+h1 {
+    color: rgb(13, 255, 0);
+    font-size: 2em;
+    margin-bottom: 0.5em;
+} 
+/* blue color and font size and spacing adjustments for <h2> element */
+
+
+h2 {
+    color: rgb(8, 24, 167);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+} 
+h3 {
+    color: rgb(8, 24, 167);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+h4 {
+    color: rgb(8, 24, 167);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+h5 {
+    color: rgb(8, 24, 167);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+} 
