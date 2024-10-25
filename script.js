@@ -1,10 +1,12 @@
+// Function to append results to the HTML as an h2 element
 function appendResult(divId, text) {
     const resultsDiv = document.getElementById(divId);
     const h2 = document.createElement('h2');
     h2.textContent = text;
     resultsDiv.appendChild(h2);
-} // Makes commands display onto "index.html" as the h2 element
+}
 
+// if/else-if/else statements
 let myGrade = 70;
 if (myGrade >= 90) {
     console.log("A");
@@ -21,8 +23,9 @@ if (myGrade >= 90) {
 } else {
     console.log("F");
     appendResult("results1", "F");
-} // if/else-if/else statements
+}
 
+// switch statements
 myGrade = 85;
 switch (true) {
     case (myGrade >= 90):
@@ -44,8 +47,9 @@ switch (true) {
     default:
         console.log("F");
         appendResult("results2", "F");
-} // case statements
+}
 
+// for loop
 let result3 = "";
 for (let i = 1; i <= 100; i++) {
     console.log(i);
@@ -53,6 +57,7 @@ for (let i = 1; i <= 100; i++) {
 }
 appendResult("results3", result3);
 
+// for loop with conditional
 let result4 = "";
 for (let i = 1; i <= 100; i++) {
     if (i % 2 !== 0) {
