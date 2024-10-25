@@ -5,7 +5,7 @@ body, h1, h2,h3,h4,h5 {
 }
 
 body {
-    background: radial-gradient(circle, rgb(0,0,0), rgb(40,0,40)); /* Gradient dark purple background */
+    background: radial-gradient(circle, rgb(9, 77, 117), rgb(22, 96, 126)); /* Gradient dark purple background */
 }
 /*green color and font size and spacing adjustments for <h1> element */
 h1 {
@@ -13,9 +13,8 @@ h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
 } 
+
 /* blue color and font size and spacing adjustments for <h2> element */
-
-
 h2 {
     color: rgb(8, 24, 167);
     font-size: 1.5em;
